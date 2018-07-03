@@ -15,3 +15,9 @@
       rosrun baxter_tools tuck_arms.py -u 準備
 
 * [control] + [shift] + [M]でマークダウンプレビューできる
+
+* 自作ファイルをrosrunで実行するとき、pythonファイルの最初に
+```
+  #!/usr/bin/env python
+```    
+が必要
