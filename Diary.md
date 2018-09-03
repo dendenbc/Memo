@@ -64,3 +64,17 @@ toda@LT15-L09:~/catkin_ws/src/baxter_hand/scripts$ rosrun baxter_hand hand_contr
   * 問題点
     * (挟んだ位置によって)短い方の蓋を押してしまう
     * 指を中に突っ込もうとすると、袋がずれていしまいうまく突っ込めない
+
+2018/07/09
+* アームの動かし方を教わる
+  * rivzでシュミレータ使えて便利
+  * 手先ではなく手首座標がIKでは必要
+  * キーボードで各関節角を動かせるpythonファイルがある（後で探します）
+  * 色々探してみよう
+
+2018/08/01
+  * アームの動かし方を模索する
+    * baxter_exampleのjoint_recorder.pyとjoint_position_file_playback.pyが便利
+      * jsonファイルで保存
+      * ある時間での角度が保存できる
+        * ムービー再生的なノリ
